@@ -5,5 +5,12 @@
   Например, факториал числа 3 это 1 * 2 * 3 (6).
 */
 
-// your code
-let factorial
+let factorial = 1;
+let i = 1;
+
+while (i <= 10) {
+    factorial *= i;
+    i=i+1;
+}
+
+
