@@ -19,4 +19,3 @@ let isAccess
 isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
 
 // для проверки результата
-console.log(isAccess) // true
