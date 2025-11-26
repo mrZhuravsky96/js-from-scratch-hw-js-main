@@ -18,4 +18,4 @@ let isAccess
 // your code
 isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
 
-// для проверки результата
+
