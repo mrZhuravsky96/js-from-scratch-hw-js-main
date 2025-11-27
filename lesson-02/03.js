@@ -4,7 +4,7 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 93
+const score = 55
 let grade 
 if (score < 50){
     grade = 'F'
@@ -17,4 +17,4 @@ if (score < 50){
 } else{ 
     grade = 'A'
   }
-console.log(grade)
+// console.log(grade)
