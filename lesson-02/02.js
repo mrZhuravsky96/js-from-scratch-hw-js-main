@@ -7,16 +7,15 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 = Math.floor(Math.random() * 6) + 1 
-let dice2 = Math.floor(Math.random() * 6) + 1
-
-let isWinningDouble = dice1 === dice2 && dice1 > 3 
-
+let dice1 = Math.floor(Math.random() * 6) + 1; // случайное число 1–6
+let dice2 = Math.floor(Math.random() * 6) + 1; // случайное число 1–6
+let isWinningDouble = dice1 === dice2 && dice1 > 3;
 
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
-if (isWinningDouble ) {
-    console.log('Выигрышный дубль!')
-} else { console.log('Не выигрышный дубль.')
+if (isWinningDouble && dice1>=3&&dice1<=6) {
+    isWinningDouble = true
+} else {
+  console.log('Не выигрышный дубль.')
+    isWinningDouble = false
 }
-
