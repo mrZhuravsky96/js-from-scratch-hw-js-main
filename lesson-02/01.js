@@ -8,12 +8,10 @@
 */
 
 // тестовые данные (значения можно менять)
-let isAdmin 
-let isVerifiedUser 
-let hasSpecialPermission 
-let hasTemporaryPass 
-
-let isAccess
+const isAdmin = true
+const isVerifiedUser = true
+const hasSpecialPermission = true
+const hasTemporaryPass = true
 
 // your code
-isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
+let isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
