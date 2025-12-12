@@ -28,7 +28,7 @@ function includesElement(array, element) {
         }
 
     }
-    
+    return false;
 }
 
 function findCommonElements(array1, array2) {
@@ -43,4 +43,3 @@ function findCommonElements(array1, array2) {
 
 
 const commonElements = findCommonElements(ar1, ar2)
-console.log(commonElements)
