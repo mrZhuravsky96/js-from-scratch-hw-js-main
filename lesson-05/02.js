@@ -38,11 +38,7 @@ const gallery = {
 }
 
 function updateGallery(object, name, value) {
-  if (object.hasOwnProperty(name)) {
-    object[name] = value
-  } else {
-    object[name] = value
-  }
+  object[name] = value
 
 }
 updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
